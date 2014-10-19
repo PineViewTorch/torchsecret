@@ -10,7 +10,7 @@ GRANT ALL PRIVILEGES ON torchsecret.* TO 'torchsecret'@'localhost';
 USE torchsecret;
 CREATE TABLE `secrets` (`id` int(10) unsigned NOT NULL AUTO_INCREMENT, `body` text NOT NULL, `cookie` varchar(32) NOT NULL, `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,PRIMARY KEY (`id`)) ENGINE=MyISAM AUTO_INCREMENT=1157 DEFAULT CHARSET=latin1;
     ```
-3. Duplicate `/config/db_config.sample.php` to Duplicate `/config/db_config.php`.
+3. Duplicate `/config/db_config.sample.php` to `/config/db_config.php`.
 4. Edit the array in `/config/db_config.php` to reflect the setup, noting that you may need to add the mysql port as an item.
     
     The array should look something like:
