@@ -12,7 +12,8 @@ CREATE TABLE `secrets` (`id` int(10) unsigned NOT NULL AUTO_INCREMENT, `body` te
     ```
 3. Duplicate `/config/db_config.sample.php` to Duplicate `/config/db_config.php`.
 4. Edit the array in `/config/db_config.php` to reflect the setup, noting that you may need to add the mysql port as an item.
-    * The array should look something like:
+    
+    The array should look something like:
     
     ```php
         $db_config = array(
