@@ -24,6 +24,5 @@ CREATE TABLE `secrets` (`id` int(10) unsigned NOT NULL AUTO_INCREMENT, `body` te
           'username' => 'torchsecret',
           'password' => '[password]'
         );
-?>
     ```
 5. That should be it.
